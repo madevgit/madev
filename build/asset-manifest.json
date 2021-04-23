@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.3db4266a.chunk.css",
-    "main.js": "/static/js/main.a6971b6e.chunk.js",
-    "main.js.map": "/static/js/main.a6971b6e.chunk.js.map",
+    "main.js": "/static/js/main.3effa755.chunk.js",
+    "main.js.map": "/static/js/main.3effa755.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.93b6d42c.js",
     "runtime-main.js.map": "/static/js/runtime-main.93b6d42c.js.map",
     "static/js/2.210ff990.chunk.js": "/static/js/2.210ff990.chunk.js",
@@ -10,13 +10,14 @@
     "index.html": "/index.html",
     "static/css/main.3db4266a.chunk.css.map": "/static/css/main.3db4266a.chunk.css.map",
     "static/js/2.210ff990.chunk.js.LICENSE.txt": "/static/js/2.210ff990.chunk.js.LICENSE.txt",
+    "static/media/Alvira.9b36e2ce.png": "/static/media/Alvira.9b36e2ce.png",
+    "static/media/BRN.e6615f75.png": "/static/media/BRN.e6615f75.png",
     "static/media/index.css": "/static/media/Viga-Regular.c74de1ff.ttf",
     "static/media/Hobbies.9992f706.svg": "/static/media/Hobbies.9992f706.svg",
+    "static/media/Portofolio.1c77cd30.png": "/static/media/Portofolio.1c77cd30.png",
     "static/media/Quality.400fef7c.svg": "/static/media/Quality.400fef7c.svg",
     "static/media/address.a1669d6e.png": "/static/media/address.a1669d6e.png",
-    "static/media/alvira1.dafb5071.png": "/static/media/alvira1.dafb5071.png",
     "static/media/behance.46e439cb.svg": "/static/media/behance.46e439cb.svg",
-    "static/media/brn.7761828f.png": "/static/media/brn.7761828f.png",
     "static/media/creative.485641eb.png": "/static/media/creative.485641eb.png",
     "static/media/devimage.7b06cecb.png": "/static/media/devimage.7b06cecb.png",
     "static/media/disciplinate.7d93b250.svg": "/static/media/disciplinate.7d93b250.svg",
@@ -28,17 +29,16 @@
     "static/media/linkedin.31e304b2.svg": "/static/media/linkedin.31e304b2.svg",
     "static/media/logo.55f6cb09.svg": "/static/media/logo.55f6cb09.svg",
     "static/media/male.6dceb9e1.svg": "/static/media/male.6dceb9e1.svg",
-    "static/media/monCV.ef82e629.png": "/static/media/monCV.ef82e629.png",
+    "static/media/monCV.3731ac95.png": "/static/media/monCV.3731ac95.png",
     "static/media/music.2918dbea.svg": "/static/media/music.2918dbea.svg",
     "static/media/odam.34066470.png": "/static/media/odam.34066470.png",
     "static/media/phone-call.b76498e5.png": "/static/media/phone-call.b76498e5.png",
-    "static/media/portofolio.d0acbe78.png": "/static/media/portofolio.d0acbe78.png",
     "static/media/running.845bfc6f.png": "/static/media/running.845bfc6f.png"
   },
   "entrypoints": [
     "static/js/runtime-main.93b6d42c.js",
     "static/js/2.210ff990.chunk.js",
     "static/css/main.3db4266a.chunk.css",
-    "static/js/main.a6971b6e.chunk.js"
+    "static/js/main.3effa755.chunk.js"
   ]
 }

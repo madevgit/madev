@@ -108,9 +108,9 @@ function App() {
       <main onScroll={(e) => {
         e.target.scrollTop > 50 ? e.target.firstElementChild.classList.add('-translate-y-1/2') : e.target.firstElementChild.classList.remove('-translate-y-1/2')
       }} className="overflow-y-scroll overflow-x-hidden h-screen mx-auto relative">
-        <div className={`transition-transform transform duration-1000 fixed left-0 w-full z-50 ${Contact ? '-translate-y-1/2 lg:-translate-y-0' : ''}`}>
+        <div className={`transition-transform transform duration-700 fixed left-0 w-full z-50 ${Contact ? '-translate-y-1/2 lg:-translate-y-0' : ''}`}>
           < div className="w-full overflow-hidden text-xs lg:text-base bg-gradient-to-bl from-gray-100 to-gray-400 font-Righteous" >
-            <div className="max-w-screen-lg h-16 py-2 px-1 sm:p-2 mx-auto flex justify-between flex-col sm:flex-row sm:items-center transition-height duration-1000">
+            <div className="max-w-screen-lg h-16 py-2 px-1 sm:p-2 mx-auto flex justify-between flex-col sm:flex-row sm:items-center transition-height duration-700">
               <div className="flex justify-between sm:w-6/12">
                 <p className="text-center"> <img src={Dev.Email.Logo} alt="Mail:" className="h-5 w-5 inline-block rounded-full" /> <a href={`mailto:${Dev.Email.Text}`}> {Dev.Email.Text} </a> </p>
                 <p className="text-center"> <img src={Dev.Tel.Logo} alt="Tel:" className="h-5 w-5 inline-block rounded-full" /> <a href={`tel:${Dev.Tel.Text}`}>+229 63 38 38 04</a>  </p>
@@ -118,7 +118,7 @@ function App() {
               <p className="text-center"> <img src={Dev.Adresse.Logo} alt="Adresse:" className="h-5 w-5 inline-block rounded-full" /> {Dev.Adresse.Text} </p>
             </div>
           </div>
-          <header className={`bgBlur1 transition-contact duration-1000 bg-opacity-20 bg-white lg:rounded-b-lg`}>
+          <header className={`bgBlur1 transition-contact duration-700 bg-opacity-20 bg-white lg:rounded-b-lg`}>
             <div className="px-2 h-20 flex w-full justify-between items-center max-w-screen-lg mx-auto">
               <div className="block shadowg-glass ring-2  bg-gradient-to-bl from-gray-100  to-gray-400 h-14 w-14 rounded-full"><img src={Dev.Logo} alt={Dev.FirstName} className="h-full w-full" /></div>
               <nav className="w-10/12 sm:w-7/12 flex justify-between items-center">
@@ -225,7 +225,7 @@ function App() {
                         <p>Conçu avec</p>
                         <div className="flex text-xs my-2 md:text-sm justify-between w-8/12 lg:w-10/12 mx-auto text-center">
                           {project.Techs.map((tech, index) => <div key={index} > <p className="h-4 w-4 mx-auto bg-gradient-to-bl from-gray-100  to-gray-400 shadow-xl ring-2 ring-opacity-60 ring-offset-pink-500 rounded-full "></p> <p>{tech}</p> </div>)}
-                        </div> <button className="text-xl p-2 bg-gradient-to-bl from-gray-100  to-gray-400 shadow-xl ring-2 ring-opacity-60 ring-offset-pink-500 rounded-full font-black font-Bruno">Go</button>
+                        </div> <a href={project.Link} rel="noreferrer" target="_blank" className="text-xl p-2 bg-gradient-to-bl from-gray-100  to-gray-400 shadow-xl ring-2 ring-opacity-60 ring-offset-pink-500 rounded-full font-black font-Bruno">Go</a>
                       </div>
                     </div>))}
                   </div>
@@ -237,7 +237,7 @@ function App() {
         <div className="w-full md:mt-20 mb-10 lg:flex justify-between pb-8">
           <div className="lg:w-5/12 mb-20 bgBlur1 p-4 mx-auto w-11/12 font-Righteous font-light tracking-wide rounded-xl bg-white shadow-xl max-w-screen-sm">
             Je suis ouvert à toute proposition d'emploi dans le cadre de mes compétences(travail fixe ou télé-travail).
-            < div className="w-full flex flex-col transition-height duration-1000 overflow-hidden justify-between h-24 text-xs p-2 font-Viga" >
+            < div className="w-full flex flex-col transition-height duration-700 overflow-hidden justify-between h-24 text-xs p-2 font-Viga" >
               <div className="flex justify-between">
                 <p className="text-center"> <img src={Dev.Email.Logo} alt="Mail:" className="h-5 w-5 mx-auto block rounded-full" /> <a href={`mailto:${Dev.Email.Text}`}> {Dev.Email.Text} </a> </p>
                 <p className="text-center"> <img src={Dev.Tel.Logo} alt="Tel:" className="h-5 w-5 mx-auto block rounded-full" /> <a href={`tel:${Dev.Tel.Text}`}> +229 63 38 38 04 </a>  </p>
@@ -259,7 +259,7 @@ function App() {
         </div>
         <div id="Contact" className={`fixed left-0 flex items-center justify-center transition-height duration-700 ${Contact ? 'h-screen bg-opacity-90' : 'h-0 bg-opacity-0'}  flex bottom-0 bg-gray-400 w-full overflow-x-hidden`}>
           <div className="bg-white shadow-lg rounded-lg max-w-screen-sm md:flex p-4 w-11/12 mt-28">
-            < div className="w-full md:w-4/12 flex flex-col transition-height duration-1000 overflow-hidden justify-between h-24 md:h-full text-xs p-2 font-Viga" >
+            < div className="w-full md:w-4/12 flex flex-col transition-height duration-700 overflow-hidden justify-between h-24 md:h-full text-xs p-2 font-Viga" >
               <div className={`md:block shadowg-glass ring-2 mx-auto hidden bg-gradient-to-bl from-gray-100 to-gray-400 h-32 w-32 mb-8 rounded-full`}><img src={Dev.Logo} alt={Dev.FirstName} className="h-full w-full" /></div>
               <div className="flex justify-between md:flex-col">
                 <p className="text-center"> <img src={Dev.Email.Logo} alt="Mail:" className="h-5 w-5 mx-auto block rounded-full" /> <a href={`mailto:${Dev.Email.Text}`}> {Dev.Email.Text} </a> </p>

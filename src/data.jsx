@@ -19,10 +19,10 @@ import Dribbble from './icon/social/dribbble.svg'
 import Linkedin from './icon/social/linkedin.svg'
 
 //Projects images
-import Alvira from './icon/images/alvira1.png'
+import Alvira from './icon/images/Alvira.png'
 import CV from './icon/images/monCV.png'
-import BRN from './icon/images/brn.png'
-import PORTOFOLIO from './icon/images/portofolio.png'
+import BRN from './icon/images/BRN.png'
+import PORTOFOLIO from './icon/images/Portofolio.png'
 import ODAM from './icon/images/odam.png'
 
 //Hobbies icons
@@ -119,7 +119,7 @@ export default function Developer({ children }) {
                 {
                     Name: 'Facebook',
                     Icon: Facebook,
-                    Link: 'https://web.facebook.com/madevweb'
+                    Link: 'https://web.facebook.com/madevfb'
                 },
                 {
                     Name: 'LinkedIn',
@@ -149,45 +149,45 @@ export default function Developer({ children }) {
             ],
             Projects: [
                 {
-                    Name: 'ALVIRA',
-                    Description: "Alvira est une plateforme d'échange de cryptomonnaie rapide,sécurisé",
-                    Link: '',
-                    Techs: ['Tailwindcss', 'HTML', 'Vanilla JS'],
-                    Image: Alvira,
-                    Type: 1
-                },
-                {
                     Name: 'BRN',
                     Description: 'Projects en cours',
-                    Link: '',
+                    Link: 'https://www.behance.net/gallery/118108963/BRN',
                     Techs: ['Inkscape'],
                     Image: BRN,
                     Type: 0
                 },
                 {
-                    Name: 'CV',
-                    Description: 'Projects en cours',
-                    Link: '',
-                    Techs: ['AdobeXD'],
-                    Image: CV,
-                    Type: 1
-                },
-                {
                     Name: 'PORTOFOLIO',
                     Description: 'Projects en cours',
-                    Link: '',
+                    Link: 'https://madev.vercel.app',
                     Techs: ['ReactJS', 'Tailwincss', 'NodeJS'],
                     Image: PORTOFOLIO,
                     Type: 0
                 },
                 {
-                    Name: 'ODAM',
-                    Description: 'Projects en cours',
-                    Link: '',
-                    Techs: ['Lunacy'],
-                    Image: ODAM,
-                    Type: 0
-                }
+                    Name: 'ALVIRA',
+                    Description: "Alvira est une plateforme d'échange de cryptomonnaie rapide,sécurisé",
+                    Link: 'https://alvira.vercel.app',
+                    Techs: ['Tailwindcss', 'HTML', 'Vanilla JS'],
+                    Image: Alvira,
+                    Type: 1
+                },
+                // {
+                //     Name: 'ODAM',
+                //     Description: 'Projects en cours',
+                //     Link: '',
+                //     Techs: ['Lunacy'],
+                //     Image: ODAM,
+                //     Type: 0
+                // },
+                // {
+                //     Name: 'CV',
+                //     Description: 'Projects en cours',
+                //     Link: '',
+                //     Techs: ['AdobeXD'],
+                //     Image: CV,
+                //     Type: 1
+                // }
             ]
         }}>
             {children}
